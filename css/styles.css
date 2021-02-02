@@ -1,0 +1,174 @@
+/********** Base styles **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: helvetica;
+  }
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+   /* NAVBAR */
+   .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+  } 
+  
+.navbar {
+  background-color: #868686;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+}
+
+.bg-dark {
+  background-color: #868686!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(0, 0, 0, 1);
+  border-color: rgb(0, 0, 0);
+  border: 2px solid;
+ 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  clear: both;
+}
+.navbar-dark .navbar-nav .nav-link:first-child {
+  margin-top: 10px;
+}
+/* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+    height:fit-content;
+    padding: 0 15px; 
+  
+  }
+  .module {
+    scroll-behavior: [ auto | smooth ];
+  }
+/* End Of Frame Work */
+
+/* Large Devices Only*/
+  @media (min-width: 992px) 
+  {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, 
+  .col-lg-6,.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, 
+  .col-lg-11, .col-lg-12 
+    {
+      float: left;
+      height: fit-content;
+    }
+    .col-lg-4{
+      width: 33.33%;
+    }
+    .col-lg-6{
+      width: 50%;
+    }
+    .col-lg-12{
+      width: 100%;
+    }
+  }
+/* End Of large devices only*/
+
+/* Medium devices only*/
+  
+  @media (min-width: 768px) and (max-width: 991px)
+  {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+    .col-md-11, .col-md-12
+    {
+      float: left;
+    }
+    .col-md-4{
+      width: 33.33%;
+    }
+    .col-md-6{
+      width: 50%
+    }
+    .col-md-12{
+      width: 100%;
+    }
+  }
+  
+ /* End Of Medium devices only*/
+
+
+/* Specific Styles */
+    .container {
+      position: relative;
+      background: #868686;
+      border: 3px solid;
+      border-radius: 5px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      margin: 10px;
+    }
+    
+    .container p {
+      height: 1000px;
+      clear: right;
+      padding: 10px;
+    }
+    
+    .dish-title {
+      float: right;
+      position: relative;
+      top: -1px;
+      left: 1px;
+      padding: 5px 50px;
+      border: 1px #000000 solid;
+      border-radius: 5px;
+      font-size: 1.25em;
+      }
+    
+    #Chicken {
+      background-color: #922255;
+      color: ivory;
+    }
+    
+    #Beef {
+      background-color: #a12e00;
+      color: ivory;
+    }
+    
+    #Sushi {
+      background-color: #ff0000;
+      color: ivory;
+    }
+
+    .navbar-brand {
+      font-weight: bolder;
+      font-size: 30px;
+    }
+
+    
+        /******* End Of Specific Styles */
