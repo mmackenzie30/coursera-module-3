@@ -73,9 +73,13 @@
   
   }
   .module {
-    scroll-behavior: [ auto | smooth ];
+    scroll-behavior: [smooth];
   }
-/* End Of Frame Work */
+  .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(94, 93, 93);
+}
+ /* End Of Frame Work */
 
 /* Large Devices Only*/
   @media (min-width: 992px) 
@@ -134,7 +138,7 @@
     }
     
     .container p {
-      height: 1000px;
+      height: fit-content;
       clear: right;
       padding: 10px;
     }
